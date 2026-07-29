@@ -11,6 +11,7 @@ const WorkspaceApp = lazy(() =>
 );
 const JsxPlayground = lazy(() => import('./routes/JsxPlayground'));
 const Md2Pdf = lazy(() => import('./routes/Md2Pdf'));
+const XmlDesigner = lazy(() => import('./routes/XmlDesigner'));
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path={'/'} element={<Templates />} />
           <Route path="/workspace" element={<WorkspaceApp />} />
           <Route path={'/designer'} element={<Designer />} />
+          <Route path={'/xml-designer'} element={<XmlDesigner />} />
           <Route path="/form-viewer" element={<FormAndViewer />} />
           <Route path="/jsx" element={<JsxPlayground />} />
           <Route path="/md2pdf" element={<Md2Pdf />} />

@@ -112,6 +112,7 @@ export default function Navigation() {
     { id: 'templates-nav', to: '/templates', label: 'Templates' },
     { id: 'workspace-nav', to: '/workspace', label: 'My Workspace' },
     { id: 'designer-nav', to: '/designer', label: 'Designer' },
+    { id: 'xml-designer-nav', to: '/xml-designer', label: 'XML Mapper' },
     { id: 'form-viewer-nav', to: '/form-viewer', label: 'Form/Viewer' },
     { id: 'jsx-nav', to: '/jsx', label: 'JSX' },
     { id: 'md2pdf-nav', to: '/md2pdf', label: 'md2pdf' },

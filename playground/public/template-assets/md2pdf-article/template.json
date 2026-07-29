@@ -191,7 +191,7 @@
       {
         "name": "text_3",
         "type": "text",
-        "content": "return (\n  <Page>\n    <Stack gap={6}>\n      <Text>Structured authoring</Text>\n    </Stack>\n  </Page>\n);",
+        "content": "return (\r\n  <Page>\r\n    <Stack gap={6}>\r\n      <Text>Structured authoring</Text>\r\n    </Stack>\r\n  </Page>\r\n);",
         "position": {
           "x": 15,
           "y": 138.58552

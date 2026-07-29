@@ -154,7 +154,7 @@
       {
         "name": "text_3",
         "type": "text",
-        "content": "const result = await md2pdf(markdown);\nconst pdf = await generate(result);",
+        "content": "const result = await md2pdf(markdown);\r\nconst pdf = await generate(result);",
         "position": {
           "x": 15,
           "y": 99.22236000000001

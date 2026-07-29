@@ -216,7 +216,7 @@
       {
         "name": "text_3",
         "type": "text",
-        "content": "const { template, inputs } = await md2pdf(markdown, {\n  style: { fontName: 'NotoSansJP' },\n});",
+        "content": "const { template, inputs } = await md2pdf(markdown, {\r\n  style: { fontName: 'NotoSansJP' },\r\n});",
         "position": {
           "x": 15,
           "y": 129.97236
